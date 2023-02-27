@@ -21,14 +21,20 @@ p{
     display:flex;
     flex-direction: row;
     justify-content:space-around;
-    margin-left:5vw
+    margin-left:5vw;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position:relative
+
 }
 .Icon{
     flex-direction: row;
     display:flex;
     margin:3vh;
     font-size: 3vh;
+
 }
+
 .AboutContent{
     display: flex;
 }

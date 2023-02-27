@@ -2,7 +2,7 @@ import React from "react";
 import '../CSS/About.css'
 function About() {
     return (
-      <div className="About">
+      <div id = 'About' className="About">
         <div className="SubHeading">
             <hr className="Line"/>
             <h2 className="AboutSubHeading">About</h2>
@@ -16,47 +16,55 @@ function About() {
         </div>
         <div className="TechIcons">
             <div className="Row Row1">
-                <div className="Icon">
+                <div className="Icon One">
                     <i class="devicon-html5-plain colored"></i>
                     <div className="IconName">HTML</div>
                 </div>
-                <div className="Icon">
+                <div className="Icon One">
                     <i class="devicon-css3-plain colored"></i>
                     <div className="IconName">CSS</div>
                 </div>
-                <div className="Icon">
+                <div className="Icon One">
                     <i class="devicon-javascript-plain colored"></i>
                     <div className="IconName">JAVASCRIPT</div>
                 </div>
-                <div className="Icon">
+                <div className="Icon One">
                     <i class="devicon-react-original colored"></i>
                     <div className="IconName">REACT</div>
                 </div>
-                <div className="Icon">
+                <div className="Icon One">
                     <i class="devicon-webpack-plain colored"></i>
                     <div className="IconName">WEBPACK</div>
                 </div>
+                <div className="Icon One">
+                    <i class="devicon-python-plain colored"></i>
+                    <div className="IconName">PYTHON</div>
+                </div>
             </div>
             <div className="Row Row2">
-                <div className="Icon">
+                <div className="Icon Two">
                     <i class="devicon-jest-plain colored"></i>
                     <div className="IconName">JEST</div>
                 </div>                
-                <div className="Icon">
+                <div className="Icon Two">
                     <i class="devicon-git-plain colored"></i>
                     <div className="IconName">GIT</div>
                 </div>                
-                <div className="Icon">
+                <div className="Icon Two">
                     <i class="devicon-nodejs-plain colored"></i>
                     <div className="IconName">NODE</div>
                 </div>                
-                <div className="Icon">
+                <div className="Icon Two">
                     <i class="devicon-firebase-plain colored"></i>
                     <div className="IconName">FIREBASE</div>
                 </div>                
-                <div className="Icon">
+                <div className="Icon Two">
                     <i class="devicon-npm-original-wordmark colored"></i>
                     <div className="IconName">NPM</div>
+                </div>
+                <div className="Icon Two">
+                    <i class="devicon-mongodb-plain colored"></i>
+                    <div className="IconName">MONGODB</div>
                 </div>
             </div>
         </div>

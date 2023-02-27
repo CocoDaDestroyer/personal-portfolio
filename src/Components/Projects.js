@@ -3,10 +3,10 @@ import '../CSS/Projects.css'
 import battleship from './battleship.png'
 function Projects() {
     return (
-      <div className="Projects">
+      <div id = 'Projects'className="Projects">
         <div className="SubHeading">
             <hr className="Line"/>
-            <h2 className="ProjectsSubHeading">Projects</h2>
+            <h2 className="ProjectSubHeading">Projects</h2>
         </div>
         <div className="Projects">
             <div className="Project">

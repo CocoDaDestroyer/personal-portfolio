@@ -1,0 +1,15 @@
+.Line{
+    border-top: 2px solid black;
+    z-index: -1;
+    max-width: 85%;
+}
+.ContactSubHeading{
+    font-size: 3vw;
+    font-weight: 200;
+    margin-left: 10vw;
+
+}
+.Email{
+    margin-left: 10vw;
+    font-size: 2vw;
+}

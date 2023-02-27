@@ -3,10 +3,14 @@ import '../CSS/Header.css'
 function Header() {
   return (
     <div className="Header">
-        <button className="HeaderBtn">Home</button>
-        <button className="HeaderBtn">About</button>
-        <button className="HeaderBtn">Projects</button>
-        <button className="HeaderBtn">Contact</button>
+      <ul className="headingLinks">
+        <li><a href = "#Home">Home</a></li>
+        <li><a href = '#About'>About</a></li>
+        <li><a href = '#Projects'>Projects</a></li>
+        <li><a href = '#Contact'>Contact</a></li>
+
+      </ul>
+
     </div>
   );
 }
