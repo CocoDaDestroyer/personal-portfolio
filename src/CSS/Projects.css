@@ -1,0 +1,49 @@
+.Line{
+    border-top: 2px solid black;
+}
+.ProjectsSubHeading{
+    position: relative;
+    font-size: 7vh;
+    font-weight: 200;
+    margin-left: 10vw;
+}
+img{
+    max-width: 100%;
+}
+.ProjectName{
+    font-size: 5vh;
+    margin-bottom: 5vh;
+}
+.ProjectPhoto{
+    margin-left: 10vw;
+    max-width:40%;
+    margin-right: 5vw;
+}
+.Project{
+    display: flex;
+}
+.Description{
+    font-size: 4vh;
+    top:30%;
+    position: relative;
+}
+.ProjectInfo{
+    text-align: center;
+    
+}
+.Link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    margin: 2vw;
+    transition: transform 0.2s ease-in-out;
+}
+
+.Link:hover{
+    color:darkred
+}
+.Links{
+    top:50%;
+    position: relative;
+
+}

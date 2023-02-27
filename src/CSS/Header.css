@@ -1,0 +1,18 @@
+.Header{
+    padding: 16px;
+    display: flex;
+    scroll-behavior: smooth;
+    justify-content: flex-end;
+    position: fixed;
+    top:0;
+    right:0
+}
+.HeaderBtn{
+    display: inline-block;
+    margin-right: 40px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.TitleText{
+    font-weight: 100;
+    font-size: 7vw;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(7vw);
+    animation:slide-up 1.5s forwards;
+}
+@keyframes slide-up{
+    0%{
+        opacity: 0;
+        transform: translateY(7vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.TitleText:first-child{
+    margin-left: 16vw;
+    font-weight: 200;
+
+}
+.TitleText:nth-child(2){
+    margin-left: 16vw;
+    font-weight: 300;
+
+}
+.Title{
+
+    padding-bottom: 10vh;
+}

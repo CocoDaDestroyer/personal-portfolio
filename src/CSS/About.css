@@ -1,0 +1,37 @@
+.Line{
+    border-top: 2px solid black;
+    z-index: -1;
+}
+.AboutSubHeading{
+    position: relative;
+    font-size: 7vh;
+    font-weight: 200;
+    margin-left: 10vw;
+}
+.Profile{
+    margin-left: 10vw;
+    flex-direction: column;
+    max-width: 50%;
+}
+p{
+    font-size: 3vh;
+}
+.TechIcons{
+    float:right;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left:5vw
+}
+.Icon{
+    flex-direction: row;
+    display:flex;
+    margin:3vh;
+    font-size: 3vh;
+}
+.AboutContent{
+    display: flex;
+}
+.IconName{
+    margin-left:1vw
+}
